@@ -9,7 +9,7 @@ from django.contrib.auth.decorators import login_required
 from .decorators import *
 from django.contrib.auth.models import Group
 from .filters import fooditemFilter
-import django_filters
+
 
 # Create your views here.
 
