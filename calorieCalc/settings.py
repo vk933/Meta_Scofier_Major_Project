@@ -25,7 +25,7 @@ SECRET_KEY = '1oft^)+@nuk+5-&r$g3w_42lhnpsagi(6q5)mua7=2y%8%&dd6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -129,3 +129,8 @@ EMAIL_PORT=587
 EMAIL_USE_TLS=True
 EMAIL_HOST_USER='***'
 EMAIL_HOST_PASSWORD='***'
+
+INSTALLED_APPS = [
+    # other apps
+    'django_filters',
+]
